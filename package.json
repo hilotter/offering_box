@@ -1,0 +1,37 @@
+{
+  "name": "offering-box",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@types/next": "^6.1.7",
+    "@types/react": "^16.4.14",
+    "babel-plugin-transform-define": "^1.3.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "ganache-cli": "^6.2.1-beta.0",
+    "ganache-core": "^2.3.1-beta.1",
+    "mocha": "^5.2.0",
+    "openzeppelin-solidity": "v2.0.0",
+    "solc": "^0.4.25",
+    "truffle": "^4.1.14",
+    "truffle-assertions": "^0.6.3",
+    "truffle-hdwallet-provider": "^0.0.6"
+  },
+  "author": "hilotter",
+  "license": "MIT",
+  "description": "offering box"
+}
