@@ -2,9 +2,11 @@
 export HDWALLET_MNEMONIC=
 export INFURA_URL=
 
+# server & client
+export CONTRACT_ADDRESS=0x8c146b6fd93720ab090ba0cb065aaf23556e2098
+
 # server
 export INFURA_WS_URL=
-export CONTRACT_ADDRESS=0x8c146b6fd93720ab090ba0cb065aaf23556e2098
 export GOOGLE_HOME_API_URL=http://localhost:8091/google-home-notifier
 
 # google_home
