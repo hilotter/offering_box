@@ -25,6 +25,15 @@ class Dapp extends React.Component {
     const { web3, accounts, contract } = this.props
     this.setState({ loading: true, errorMessage: '', successMessage: '' });
 
+    // Modern dapp browsers
+    if (window.ethereum) {
+      try {
+        await window.ethereum.enable();
+      } catch (err) {
+        this.setState({ errorMessage: err.message });
+      }
+    }
+
     try {
         const txReceipt = await contract.methods
             .donate()
